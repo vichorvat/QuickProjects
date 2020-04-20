@@ -11,7 +11,7 @@
 
 inputNum = int(input("input: "))
 
-def mainFuncHelper(outputNum, amount):
+def mainFunc(outputNum, amount):
     if amount <= inputNum:
         output = ""
         for i in range(0,amount):
