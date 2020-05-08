@@ -17,8 +17,11 @@ def mainFunc(outputNum, amount):
         for i in range(0,amount):
             output = output + str(outputNum)
         print(output)
-        mainFuncHelper((outputNum - 1), (amount + 1) )
+        mainFunc((outputNum - 1), (amount + 1) )
 
 
-mainFuncHelper(inputNum, 1)
+mainFunc(inputNum, 1)
+#
+
+
 
